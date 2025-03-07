@@ -28,18 +28,18 @@ public class TestCase1 {
 		//select date
 		driver.findElement(By.xpath("//span[contains(text(),'Tomorrow')]")).click();
 		//select movie
-		driver.findElement(By.xpath("//li[@class='p-dropdown-item']/span[text()='AGHATHIYAA']")).click();
+		driver.findElement(By.xpath("//li[@class='p-dropdown-item']/span[text()='KINGSTON']")).click();
 		//select time
-		driver.findElement(By.xpath("//span[text()='07:25 PM']")).click();
+		driver.findElement(By.xpath("//span[text()='07:35 PM']")).click();
 		//click book button
 		driver.findElement(By.xpath("//button[@type='submit']/span")).click();
 		//Click Accept on Term and Condition
 		driver.findElement(By.xpath("//button[text()='Accept']")).click();
+		Thread.sleep(2000);
 		//Click any one available seat
-		driver.findElement(By.xpath("//td[@class='seats-col']/span[text()='10']")).click();
+		driver.findElement(By.xpath("//span[@id='CL.CLUB|K:23")).click();
 		// Click Proceed Button
-		driver.findElement(By.xpath("//button[text()='Proceed']")).click();
-		
+		driver.findElement(By.xpath("//div[@class='register-btn']/button[text()='Proceed']")).click();
 		
 		
 		
